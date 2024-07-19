@@ -1,0 +1,6 @@
+signalSim/NCO/NCO1/DitherGen --> DitherGen
+signalSim/NCO/NCO1/WaveformGen/LookUpTableGen/Lookup Table --> Lookup_Table
+signalSim/NCO/NCO1/WaveformGen/LookUpTableGen --> LookUpTableGen
+signalSim/NCO/NCO1/WaveformGen --> WaveformGen
+signalSim/NCO/NCO1 --> NCO1
+signalSim/NCO --> NCO

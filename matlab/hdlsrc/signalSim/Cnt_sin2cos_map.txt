@@ -1,0 +1,1 @@
+signalSim/Cnt_sin2cos --> Cnt_sin2cos

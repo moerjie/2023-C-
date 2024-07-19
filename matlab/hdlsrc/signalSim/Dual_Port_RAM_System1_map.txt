@@ -1,0 +1,2 @@
+signalSim/Dual_Port_RAM_System1/DualPortRAM_generic --> DualPortRAM_generic
+signalSim/Dual_Port_RAM_System1 --> Dual_Port_RAM_System1

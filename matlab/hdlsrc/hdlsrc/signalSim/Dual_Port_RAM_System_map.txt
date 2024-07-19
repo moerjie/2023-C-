@@ -1,0 +1,2 @@
+signalSim/Dual_Port_RAM_System/DualPortRAM_generic_AsyncRead --> DualPortRAM_generic_AsyncRead
+signalSim/Dual_Port_RAM_System --> Dual_Port_RAM_System
