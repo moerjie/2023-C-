@@ -39,7 +39,7 @@ module adc_sample(
 
 
 
-lD:\Desktop\2024_E_Design\2023C\pcb\Composite Drawing.pdfocalparam       S_IDLE    = 0;
+localparam       S_IDLE    = 0;
 localparam       S_SAMPLE  = 1;
 localparam       S_WAIT    = 2;
 reg[2:0] 		 state;
@@ -79,7 +79,7 @@ begin
 			end
 			S_SAMPLE:
 			begin
-				if(sample_cnt == 10'd1000)	//sample 100 data
+				if(sample_cnt == 10'd1023)	//sample 1000 data
 				begin
 					sample_cnt <= 10'd0;
 					adc_buf_wr <= 1'b0;
@@ -97,7 +97,7 @@ begin
 			end		
 			S_WAIT:
 			begin
-				if(wait_cnt == 32'd25_000_000)	//wait for a while
+				if(wait_cnt == 32'd10_000_000)	//wait for a while
 				begin
 					state <= S_SAMPLE;
 					wait_cnt <= 32'd0;

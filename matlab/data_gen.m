@@ -9,3 +9,10 @@ N=ceil(log2(fdac/deltaF));
 inc_1e5=round((100000*2^N)/fdac);
 inc_1e6=round((1000000*2^N)/fdac);
 
+u=0:0.01:100;
+
+% 
+% subplot(2,1,1);
+% plot(VarName9);
+% subplot(2,1,2);
+% plot(VarName11);

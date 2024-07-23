@@ -68,8 +68,8 @@ applicable agreement for further details.
 	(port
 		(pt 176 48)
 		(output)
-		(text "Sin[15..0]" (rect 0 0 35 12)(font "Arial" ))
-		(text "Sin[15..0]" (rect 120 43 155 55)(font "Arial" ))
+		(text "Sin[11..0]" (rect 0 0 34 12)(font "Arial" ))
+		(text "Sin[11..0]" (rect 121 43 155 55)(font "Arial" ))
 		(line (pt 176 48)(pt 160 48)(line_width 3))
 	)
 	(port

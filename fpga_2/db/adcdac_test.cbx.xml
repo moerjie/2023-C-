@@ -1,17 +1,27 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="adcdac_test">
-		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|BUSMUX:inst5|lpm_mux:$00000" CBX_FILE_NAME="mux_rsc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|ramv:inst16|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_4ln1.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_mux:mux" CBX_FILE_NAME="mux_ssc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:\adv_point_3_and_more:advance_pointer_counter" CBX_FILE_NAME="cntr_hgi.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|NCO:inst12|NCO1:u_NCO1|WaveformGen:u_Wave_inst|LookUpTableGen:u_SineWave_inst|Lookup_Table:u_Lookup_Table|altsyncram:Mux14_rtl_0" CBX_FILE_NAME="altsyncram_mf01.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|busmux:inst27|lpm_mux:$00000" CBX_FILE_NAME="mux_nsc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_mux:mux" CBX_FILE_NAME="mux_psc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:\adv_point_3_and_more:advance_pointer_counter" CBX_FILE_NAME="cntr_fgi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|DualRam:inst15|DualPortRAM_generic:u_Dual_Port_RAM|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_2an1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|DualRam:inst16|DualPortRAM_generic:u_Dual_Port_RAM|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_2an1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|DualRam:inst21|DualPortRAM_generic:u_Dual_Port_RAM|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_2an1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|Lowpass:inst28|Lowpass_ast:Lowpass_ast_inst|auk_dspip_avalon_streaming_sink_fir_131:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo" CBX_FILE_NAME="scfifo_chh1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|mul:inst23|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_p3p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:read_pointer_counter" CBX_FILE_NAME="cntr_89j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|Lowpass:inst29|Lowpass_ast:Lowpass_ast_inst|auk_dspip_avalon_streaming_sink_fir_131:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo" CBX_FILE_NAME="scfifo_chh1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|Lowpass:inst30|Lowpass_ast:Lowpass_ast_inst|auk_dspip_avalon_streaming_sink_fir_131:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo" CBX_FILE_NAME="scfifo_chh1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|NCO:inst1|NCO1:u_NCO1|WaveformGen:u_Wave_inst|LookUpTableGen:u_SineWave_inst|Lookup_Table:u_Lookup_Table|altsyncram:Mux10_rtl_0" CBX_FILE_NAME="altsyncram_if01.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|PLL:inst20|altpll:altpll_component" CBX_FILE_NAME="PLL_altpll2.v"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|ramv:inst19|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_4ln1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|busmux:inst26|lpm_mux:$00000" CBX_FILE_NAME="mux_nsc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|mul:inst22|lpm_mult:lpm_mult_component|mult_p3p:auto_generated|altshift_taps:dffe3a_rtl_0" CBX_FILE_NAME="shift_taps_noo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|mul:inst24|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_p3p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram" CBX_FILE_NAME="altsyncram_u024.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_advance_pointer_counter" CBX_FILE_NAME="cntr_cgi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|busmux:inst5|lpm_mux:$00000" CBX_FILE_NAME="mux_rsc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|mul:inst22|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_p3p.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder" CBX_FILE_NAME="decode_dvf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram" CBX_FILE_NAME="altsyncram_5124.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_advance_pointer_counter" CBX_FILE_NAME="cntr_egi.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_read_pointer_counter" CBX_FILE_NAME="cntr_23j.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|adcdac_test|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:read_pointer_counter" CBX_FILE_NAME="cntr_g9j.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

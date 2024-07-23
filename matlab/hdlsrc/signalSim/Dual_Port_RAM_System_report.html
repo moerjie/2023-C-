@@ -48,15 +48,21 @@
  <div class="page_container"><div class="content_frame">
 <h1>HDL Code Generation Check Report for 'signalSim/Dual_Port_RAM_System'
 <a href="matlab:open_system('signalSim/Dual_Port_RAM_System');">open model 'signalSim/Dual_Port_RAM_System'</a><BR>
-Generated on 2024-07-19 09:45:35</h1>
-<H2>HDL check for 'signalSim' complete with 1 errors, 0 warnings, and 0 messages.</H2><BR>
+Generated on 2024-07-19 10:28:36</h1>
+<H2>HDL check for 'signalSim' complete with 0 errors, 0 warnings, and 2 messages.</H2><BR>
 <H3>The following table describes blocks for which errors, warnings or messages were reported.</H3><BR>
 <TABLE>
 <TR><TD> <B>Simulink Blocks and resources</B> </TD><TD> <B>Level</B> </TD><TD> <B>Description</B> </TD></TR><TR bgcolor="#F0F0F0"><TD>
-<a alt="hdlcoder:engine:cannotconnecttomodel" href="matlab:hilite(get_param(char([115 105 103 110 97 108 83 105 109]),'object'),'none');open_system(char([115 105 103 110 97 108 83 105 109]))">signalSim</a>
+<a alt="hdlcoder:workflow:AdaptivePipelineOffMessage" href="matlab:hilite(get_param(char([115 105 103 110 97 108 83 105 109]),'object'),'none');open_system(char([115 105 103 110 97 108 83 105 109]))">signalSim</a>
 </TD>
-<TD>Error</TD>
-<TD>Cannot connect to model 'signalSim'; please try Update Diagram (Ctrl-D).</TD>
+<TD>Message</TD>
+<TD><a href="matlab:configset.internal.open('signalSim','AdaptivePipelining')">'AdaptivePipelining'</a> is set to 'Off' for the model. 'AdaptivePipelining' can improve the achievable clock frequency and reduce the area usage on FPGA boards. To enable adaptive pipelining, please set the option to 'On'. When adaptive pipelining is enabled, it inserts pipeline registers to create patterns that efficiently map blocks to DSP units on the target FPGA device.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:workflow:LUTMapToRAMOffMessage" href="matlab:hilite(get_param(char([115 105 103 110 97 108 83 105 109]),'object'),'none');open_system(char([115 105 103 110 97 108 83 105 109]))">signalSim</a>
+</TD>
+<TD>Message</TD>
+<TD><a href="matlab:configset.internal.open('signalSim','LUTMapToRAM')">'LUTMapToRAM'</a> is set to 'On' for the model. This option is used to map lookup tables to a block RAM in hardware.  To disable pipeline insertion for mapping lookup tables to RAM, please set the option to 'Off'.</TD>
 </TR>
 </TABLE>
 <BR><BR> </div></div></div></div>

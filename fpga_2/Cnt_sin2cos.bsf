@@ -20,7 +20,7 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 256 128)
+	(rect 16 16 248 128)
 	(text "Cnt_sin2cos" (rect 5 0 54 12)(font "Arial" ))
 	(text "inst" (rect 8 96 20 108)(font "Arial" ))
 	(port
@@ -45,27 +45,27 @@ applicable agreement for further details.
 		(line (pt 0 64)(pt 16 64)(line_width 1))
 	)
 	(port
-		(pt 240 32)
+		(pt 232 32)
 		(output)
 		(text "ce_out" (rect 0 0 27 12)(font "Arial" ))
-		(text "ce_out" (rect 192 27 219 39)(font "Arial" ))
-		(line (pt 240 32)(pt 224 32)(line_width 1))
+		(text "ce_out" (rect 184 27 211 39)(font "Arial" ))
+		(line (pt 232 32)(pt 216 32)(line_width 1))
 	)
 	(port
-		(pt 240 48)
+		(pt 232 48)
 		(output)
-		(text "CntOutPhaseShift[15..0]" (rect 0 0 94 12)(font "Arial" ))
-		(text "CntOutPhaseShift[15..0]" (rect 125 43 219 55)(font "Arial" ))
-		(line (pt 240 48)(pt 224 48)(line_width 3))
+		(text "CntOutPhaseShift[9..0]" (rect 0 0 90 12)(font "Arial" ))
+		(text "CntOutPhaseShift[9..0]" (rect 121 43 211 55)(font "Arial" ))
+		(line (pt 232 48)(pt 216 48)(line_width 3))
 	)
 	(port
-		(pt 240 64)
+		(pt 232 64)
 		(output)
-		(text "CntOut[15..0]" (rect 0 0 51 12)(font "Arial" ))
-		(text "CntOut[15..0]" (rect 168 59 219 71)(font "Arial" ))
-		(line (pt 240 64)(pt 224 64)(line_width 3))
+		(text "CntOut[9..0]" (rect 0 0 48 12)(font "Arial" ))
+		(text "CntOut[9..0]" (rect 163 59 211 71)(font "Arial" ))
+		(line (pt 232 64)(pt 216 64)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 224 96)(line_width 1))
+		(rectangle (rect 16 16 216 96)(line_width 1))
 	)
 )

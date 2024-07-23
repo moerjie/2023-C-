@@ -40,7 +40,7 @@ module DAC_interface(
 
 
 input           CLKIN;
-input  [16-1:0]  DATIN   ;
+input  [12-1:0]  DATIN   ;
 output [12-1:0] DAT2DAC ;
 
 
@@ -48,9 +48,9 @@ reg [12-1:0]  DAT2DAC ;
 reg [12-1:0]  datin_R1;
 
 always @ (posedge CLKIN) begin
-  datin_R1 [11]    <= ~ DATIN[15]; // inverse the msb to unsigned
-  datin_R1 [10: 0] <= DATIN[14:4];
-  DAT2DAC          <= datin_R1;
+  datin_R1 [11]    <= ~ DATIN[11]; // inverse the msb to unsigned
+  datin_R1 [10: 0] <= DATIN[10:0];
+  DAT2DAC          <= (datin_R1>>1);
 end
 
 

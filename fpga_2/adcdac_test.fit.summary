@@ -1,16 +1,16 @@
-Fitter Status : Successful - Thu Jul 18 19:16:57 2024
+Fitter Status : Successful - Tue Jul 23 14:33:00 2024
 Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
 Revision Name : adcdac_test
 Top-level Entity Name : adcdac_test
 Family : Cyclone IV E
 Device : EP4CE22F17C6
 Timing Models : Final
-Total logic elements : 1,555 / 22,320 ( 7 % )
-    Total combinational functions : 896 / 22,320 ( 4 % )
-    Dedicated logic registers : 1,295 / 22,320 ( 6 % )
-Total registers : 1295
-Total pins : 42 / 154 ( 27 % )
+Total logic elements : 9,602 / 22,320 ( 43 % )
+    Total combinational functions : 8,217 / 22,320 ( 37 % )
+    Dedicated logic registers : 9,173 / 22,320 ( 41 % )
+Total registers : 9173
+Total pins : 46 / 154 ( 30 % )
 Total virtual pins : 0
-Total memory bits : 138,240 / 608,256 ( 23 % )
-Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total memory bits : 87,664 / 608,256 ( 14 % )
+Embedded Multiplier 9-bit elements : 3 / 132 ( 2 % )
 Total PLLs : 1 / 4 ( 25 % )
